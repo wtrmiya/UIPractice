@@ -26,6 +26,7 @@
 		86F4B8AC27542F6900FC378D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F4B8AE27542F6900FC378D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F4B8B427542F7100FC378D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		86F4B8B627543A9000FC378D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		86F4B89427542F6800FC378D = {
 			isa = PBXGroup;
 			children = (
+				86F4B8B627543A9000FC378D /* README.md */,
 				86F4B8B427542F7100FC378D /* .gitignore */,
 				86F4B89F27542F6800FC378D /* UIPractice */,
 				86F4B89E27542F6800FC378D /* Products */,
