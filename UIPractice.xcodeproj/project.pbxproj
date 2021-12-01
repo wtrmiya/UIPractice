@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8606D94327581B1000958EB4 /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8606D94227581B1000958EB4 /* List.storyboard */; };
 		86F4B8A127542F6800FC378D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A027542F6800FC378D /* AppDelegate.swift */; };
 		86F4B8A327542F6800FC378D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A227542F6800FC378D /* SceneDelegate.swift */; };
 		86F4B8A527542F6800FC378D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A427542F6800FC378D /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8606D94227581B1000958EB4 /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
 		86F4B89D27542F6800FC378D /* UIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4B8A027542F6800FC378D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F4B8A227542F6800FC378D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8606D941275818DC00958EB4 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				8606D94227581B1000958EB4 /* List.storyboard */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		86F4B89427542F6800FC378D = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		86F4B89F27542F6800FC378D /* UIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8606D941275818DC00958EB4 /* List */,
 				86F4B9172756E72C00FC378D /* RootView */,
 				86F4B8A027542F6800FC378D /* AppDelegate.swift */,
 				86F4B8A227542F6800FC378D /* SceneDelegate.swift */,
@@ -153,6 +164,7 @@
 				86F4B8B527542F7100FC378D /* .gitignore in Resources */,
 				86F4B8AD27542F6900FC378D /* LaunchScreen.storyboard in Resources */,
 				86F4B8AA27542F6900FC378D /* Assets.xcassets in Resources */,
+				8606D94327581B1000958EB4 /* List.storyboard in Resources */,
 				86F4B8A827542F6800FC378D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
