@@ -31,17 +31,19 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6u-80-faD">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TableView - Storybaord" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaJ-bS-LEl">
-                                                <rect key="frame" x="118" y="377" width="178" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-cO-qRt">
+                                                <rect key="frame" x="122.5" y="371.5" width="169" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="TableView: Storybaord"/>
+                                                <connections>
+                                                    <segue destination="9ei-2c-uYq" kind="show" id="F3E-rP-SbQ"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="ZaJ-bS-LEl" firstAttribute="centerY" secondItem="u6u-80-faD" secondAttribute="centerY" id="UqG-of-aVP"/>
-                                            <constraint firstItem="ZaJ-bS-LEl" firstAttribute="centerX" secondItem="u6u-80-faD" secondAttribute="centerX" id="bpk-fN-3aE"/>
+                                            <constraint firstItem="e4T-cO-qRt" firstAttribute="centerX" secondItem="u6u-80-faD" secondAttribute="centerX" id="HVn-kH-G9z"/>
+                                            <constraint firstItem="e4T-cO-qRt" firstAttribute="centerY" secondItem="u6u-80-faD" secondAttribute="centerY" id="qkZ-cV-4Jc"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -69,6 +71,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133" y="117"/>
+        </scene>
+        <!--TableViewByStoryboard-->
+        <scene sceneID="okb-Fy-SGN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TableViewByStoryboard" id="9ei-2c-uYq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eIC-6K-7Sh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="beJ-VL-wf4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="787" y="-45"/>
         </scene>
     </scenes>
     <resources>
