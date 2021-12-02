@@ -14,6 +14,10 @@
 		8606D951275828DA00958EB4 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606D950275828DA00958EB4 /* DataSource.swift */; };
 		8606D95327582D1700958EB4 /* TableViewByStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606D95227582D1700958EB4 /* TableViewByStoryboardViewController.swift */; };
 		8606D95627582E7800958EB4 /* TableViewByStoryboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606D95527582E7800958EB4 /* TableViewByStoryboardCell.swift */; };
+		86685303275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86685302275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard */; };
+		866853052759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866853042759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift */; };
+		8668530827596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8668530627596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift */; };
+		8668530927596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8668530727596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.xib */; };
 		86F4B8A127542F6800FC378D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A027542F6800FC378D /* AppDelegate.swift */; };
 		86F4B8A327542F6800FC378D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A227542F6800FC378D /* SceneDelegate.swift */; };
 		86F4B8A527542F6800FC378D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A427542F6800FC378D /* ViewController.swift */; };
@@ -32,6 +36,10 @@
 		8606D950275828DA00958EB4 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		8606D95227582D1700958EB4 /* TableViewByStoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewByStoryboardViewController.swift; sourceTree = "<group>"; };
 		8606D95527582E7800958EB4 /* TableViewByStoryboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewByStoryboardCell.swift; sourceTree = "<group>"; };
+		86685302275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewByStoryboardAndXib.storyboard; sourceTree = "<group>"; };
+		866853042759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewByStoryboardAndXibViewController.swift; sourceTree = "<group>"; };
+		8668530627596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewByStoryboardAndXibCell.swift; sourceTree = "<group>"; };
+		8668530727596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewByStoryboardAndXibCell.xib; sourceTree = "<group>"; };
 		86F4B89D27542F6800FC378D /* UIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4B8A027542F6800FC378D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F4B8A227542F6800FC378D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +76,7 @@
 		8606D94427581D4A00958EB4 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				866853002759682B00D7D6C6 /* StorybaordAndXib */,
 				8606D94527581D7300958EB4 /* Storyboard */,
 			);
 			path = TableView;
@@ -104,6 +113,25 @@
 			isa = PBXGroup;
 			children = (
 				8606D95527582E7800958EB4 /* TableViewByStoryboardCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		866853002759682B00D7D6C6 /* StorybaordAndXib */ = {
+			isa = PBXGroup;
+			children = (
+				866853012759687E00D7D6C6 /* TableViewCell */,
+				86685302275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard */,
+				866853042759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift */,
+			);
+			path = StorybaordAndXib;
+			sourceTree = "<group>";
+		};
+		866853012759687E00D7D6C6 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8668530627596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift */,
+				8668530727596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -218,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86685303275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard in Resources */,
 				8606D94727581D9D00958EB4 /* TableViewByStoryboard.storyboard in Resources */,
 				86F4B91A2756E75B00FC378D /* RootTableView.storyboard in Resources */,
 				86F4B8B527542F7100FC378D /* .gitignore in Resources */,
@@ -226,6 +255,7 @@
 				86F4B8AA27542F6900FC378D /* Assets.xcassets in Resources */,
 				8606D94327581B1000958EB4 /* List.storyboard in Resources */,
 				86F4B8A827542F6800FC378D /* Main.storyboard in Resources */,
+				8668530927596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +272,9 @@
 				8606D95327582D1700958EB4 /* TableViewByStoryboardViewController.swift in Sources */,
 				86F4B8A327542F6800FC378D /* SceneDelegate.swift in Sources */,
 				8606D951275828DA00958EB4 /* DataSource.swift in Sources */,
+				866853052759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift in Sources */,
 				8606D94E2758250900958EB4 /* Album.swift in Sources */,
+				8668530827596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
