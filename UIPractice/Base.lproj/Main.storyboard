@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-1070" y="46"/>
         </scene>
-        <!--RootTableView-->
+        <!--RootView-->
         <scene sceneID="9pe-Fo-XpM">
             <objects>
-                <viewControllerPlaceholder storyboardName="RootTableView" id="LsN-2m-Aip" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="RootView" id="LsN-2m-Aip" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="wkO-eH-UZp"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vyc-X4-Wje" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -17,9 +17,12 @@ final class TableViewByStoryboardAndXibViewController:UIViewController {
     }
     
     private var albums:[Album] = []
+    private let navItemTitle = "TableView: Storyboard + Xib"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.title = navItemTitle
         
         albums = DataSource.shared.albums
         
