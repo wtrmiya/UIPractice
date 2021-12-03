@@ -16,17 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xeo-oT-P0x">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="UIP-lK-che"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="TableView: Storybaord" id="aoa-sB-QPw"/>
-                                </items>
-                            </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="joQ-3Q-kez">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewByStoryboardCell" id="nbu-ay-Uuc" customClass="TableViewByStoryboardCell" customModule="UIPractice" customModuleProvider="target">
@@ -72,12 +63,9 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Xeo-oT-P0x" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="5hg-8W-sOD"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="joQ-3Q-kez" secondAttribute="trailing" id="MbP-fG-tLb"/>
                             <constraint firstItem="joQ-3Q-kez" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ZQV-wT-l9t"/>
-                            <constraint firstItem="Xeo-oT-P0x" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="dGc-yh-j8G"/>
-                            <constraint firstItem="Xeo-oT-P0x" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="j2N-fh-Ybb"/>
-                            <constraint firstItem="joQ-3Q-kez" firstAttribute="top" secondItem="Xeo-oT-P0x" secondAttribute="bottom" id="nvu-Sd-m3G"/>
+                            <constraint firstItem="joQ-3Q-kez" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="eyi-oM-mSM"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="joQ-3Q-kez" secondAttribute="bottom" id="yNz-DK-KO4"/>
                         </constraints>
                     </view>

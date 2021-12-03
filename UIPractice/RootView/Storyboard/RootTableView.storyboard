@@ -16,23 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sVD-Kw-n0h">
-                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="sSM-UK-6KJ"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="UIPractice" id="I9B-QS-7iO"/>
-                                </items>
-                            </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BML-cM-cOM">
-                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18i-Cc-Ess">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M62-Uz-L16">
-                                                <rect key="frame" x="164" y="329.66666666666669" width="47.333333333333343" height="31"/>
+                                                <rect key="frame" x="164" y="351.66666666666669" width="47.333333333333343" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="List"/>
                                                 <connections>
@@ -59,12 +50,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BML-cM-cOM" secondAttribute="trailing" id="2yc-Vx-Kq3"/>
-                            <constraint firstItem="sVD-Kw-n0h" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="8AY-8o-KE3"/>
+                            <constraint firstItem="BML-cM-cOM" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="DtR-zI-BEk"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="BML-cM-cOM" secondAttribute="bottom" id="M2V-Ak-OUU"/>
-                            <constraint firstItem="sVD-Kw-n0h" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Pi5-dL-ELm"/>
-                            <constraint firstItem="sVD-Kw-n0h" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="SCs-3n-0fj"/>
                             <constraint firstItem="BML-cM-cOM" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="mXp-IS-C2Z"/>
-                            <constraint firstItem="BML-cM-cOM" firstAttribute="top" secondItem="sVD-Kw-n0h" secondAttribute="bottom" id="mp9-xm-QyM"/>
                         </constraints>
                     </view>
                 </viewController>
