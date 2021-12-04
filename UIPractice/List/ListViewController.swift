@@ -15,4 +15,10 @@ final class ListViewController:UIViewController {
         let nav = self.navigationController
         nav?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func tapTableViewByCodeAndXibButton(_ sender: Any) {
+        let vc = TableViewByCodeAndXibViewController()
+        let nav = self.navigationController
+        nav?.pushViewController(vc, animated: true)
+    }
 }

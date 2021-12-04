@@ -20,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6u-80-faD">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="163.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-cO-qRt">
-                                                <rect key="frame" x="122.5" y="87" width="169" height="31"/>
+                                                <rect key="frame" x="122.5" y="66.5" width="169" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storybaord"/>
                                                 <connections>
@@ -38,10 +38,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpf-1c-OQP">
-                                        <rect key="frame" x="0.0" y="204.5" width="414" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="163.5" width="414" height="163.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-2V-GLh">
-                                                <rect key="frame" x="104" y="87" width="206.5" height="31"/>
+                                                <rect key="frame" x="104" y="66.5" width="206.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storyboard + Xib"/>
                                                 <connections>
@@ -56,10 +56,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGV-tb-JgE">
-                                        <rect key="frame" x="0.0" y="409" width="414" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="327" width="414" height="164"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oH7-MG-0Fg">
-                                                <rect key="frame" x="97.5" y="87" width="219.5" height="31"/>
+                                                <rect key="frame" x="97.5" y="66.5" width="219.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storyboard + Code"/>
                                                 <connections>
@@ -74,10 +74,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEi-os-7mi">
-                                        <rect key="frame" x="0.0" y="613.5" width="414" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="491" width="414" height="163.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apT-eC-TNh">
-                                                <rect key="frame" x="141.5" y="87" width="131.5" height="31"/>
+                                                <rect key="frame" x="141.5" y="66" width="131.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Code"/>
                                                 <connections>
@@ -89,6 +89,24 @@
                                         <constraints>
                                             <constraint firstItem="apT-eC-TNh" firstAttribute="centerY" secondItem="JEi-os-7mi" secondAttribute="centerY" id="8bv-BQ-Z3u"/>
                                             <constraint firstItem="apT-eC-TNh" firstAttribute="centerX" secondItem="JEi-os-7mi" secondAttribute="centerX" id="sY2-eP-rkH"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpC-1D-R2O">
+                                        <rect key="frame" x="0.0" y="654.5" width="414" height="163.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jY-sp-TKh">
+                                                <rect key="frame" x="123" y="66" width="168.5" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="TableView: Code + Xib"/>
+                                                <connections>
+                                                    <action selector="tapTableViewByCodeAndXibButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qca-q1-aWA"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="1jY-sp-TKh" firstAttribute="centerX" secondItem="mpC-1D-R2O" secondAttribute="centerX" id="1Zh-pU-qdm"/>
+                                            <constraint firstItem="1jY-sp-TKh" firstAttribute="centerY" secondItem="mpC-1D-R2O" secondAttribute="centerY" id="bal-Zb-Kwd"/>
                                         </constraints>
                                     </view>
                                 </subviews>
