@@ -20,4 +20,10 @@ final class ListViewController:UIViewController {
         let nav = self.navigationController
         nav?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func tapCollectionViewByCodeButton(_ sender: Any) {
+        let vc = CollectionViewByCodeViewController()
+        let nav = self.navigationController
+        nav?.pushViewController(vc, animated: true)
+    }
 }
