@@ -31,4 +31,9 @@ final class ListViewController:UIViewController {
         let nav = self.navigationController
         nav?.pushViewController(vc, animated: true)
     }
+    @IBAction func tapCollectionViewListButton(_ sender: Any) {
+        let vc = CollectionViewListViewController()
+        let nav = self.navigationController
+        nav?.pushViewController(vc, animated: true)
+    }
 }

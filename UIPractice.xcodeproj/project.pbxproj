@@ -19,6 +19,8 @@
 		86672120275F6D78000207F1 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667211F275F6D78000207F1 /* Section.swift */; };
 		86672124275F6E17000207F1 /* CollectionViewByCodeWithDiffableDataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86672123275F6E17000207F1 /* CollectionViewByCodeWithDiffableDataSourceViewController.swift */; };
 		86672126275F6E40000207F1 /* CollectionViewByCodeWithDiffableDataSourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86672125275F6E40000207F1 /* CollectionViewByCodeWithDiffableDataSourceCell.swift */; };
+		8667212B275FF55F000207F1 /* CollectionViewListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667212A275FF55F000207F1 /* CollectionViewListCell.swift */; };
+		8667212D275FF594000207F1 /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667212C275FF594000207F1 /* CollectionViewList.swift */; };
 		86685303275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86685302275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard */; };
 		866853052759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866853042759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift */; };
 		8668530827596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8668530627596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift */; };
@@ -56,6 +58,8 @@
 		8667211F275F6D78000207F1 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		86672123275F6E17000207F1 /* CollectionViewByCodeWithDiffableDataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewByCodeWithDiffableDataSourceViewController.swift; sourceTree = "<group>"; };
 		86672125275F6E40000207F1 /* CollectionViewByCodeWithDiffableDataSourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewByCodeWithDiffableDataSourceCell.swift; sourceTree = "<group>"; };
+		8667212A275FF55F000207F1 /* CollectionViewListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewListCell.swift; sourceTree = "<group>"; };
+		8667212C275FF594000207F1 /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 		86685302275968B100D7D6C6 /* TableViewByStoryboardAndXib.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewByStoryboardAndXib.storyboard; sourceTree = "<group>"; };
 		866853042759691100D7D6C6 /* TableViewByStoryboardAndXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewByStoryboardAndXibViewController.swift; sourceTree = "<group>"; };
 		8668530627596A9E00D7D6C6 /* TableViewByStoryboardAndXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewByStoryboardAndXibCell.swift; sourceTree = "<group>"; };
@@ -187,6 +191,23 @@
 			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
+		86672127275FF51D000207F1 /* CollectionViewList */ = {
+			isa = PBXGroup;
+			children = (
+				86672129275FF54F000207F1 /* CollectionViewCell */,
+				8667212C275FF594000207F1 /* CollectionViewList.swift */,
+			);
+			path = CollectionViewList;
+			sourceTree = "<group>";
+		};
+		86672129275FF54F000207F1 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8667212A275FF55F000207F1 /* CollectionViewListCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
 		866853002759682B00D7D6C6 /* StorybaordAndXib */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +283,7 @@
 		86685324275B019E00D7D6C6 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				86672127275FF51D000207F1 /* CollectionViewList */,
 				86672121275F6DCE000207F1 /* CodeWithDiffableDataSource */,
 				860C788F275E070800BA352F /* Code */,
 			);
@@ -401,11 +423,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8667212B275FF55F000207F1 /* CollectionViewListCell.swift in Sources */,
 				86F4B8A527542F6800FC378D /* ViewController.swift in Sources */,
 				8668530F275AA60C00D7D6C6 /* TableViewByStoryboardAndCodeViewController.swift in Sources */,
 				86685323275AFD0E00D7D6C6 /* TableViewByCodeAndXibViewController.swift in Sources */,
 				86685313275AB5B900D7D6C6 /* RootViewController.swift in Sources */,
 				8606D95627582E7800958EB4 /* TableViewByStoryboardCell.swift in Sources */,
+				8667212D275FF594000207F1 /* CollectionViewList.swift in Sources */,
 				86672120275F6D78000207F1 /* Section.swift in Sources */,
 				86685316275ABE1E00D7D6C6 /* TableViewByCodeViewController.swift in Sources */,
 				86F4B8A127542F6800FC378D /* AppDelegate.swift in Sources */,
