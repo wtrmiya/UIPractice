@@ -26,4 +26,9 @@ final class ListViewController:UIViewController {
         let nav = self.navigationController
         nav?.pushViewController(vc, animated: true)
     }
+    @IBAction func tapCollectionViewByCodeWithDiffableDataSourceButton(_ sender: Any) {
+        let vc = CollectionViewByCodeWithDiffableDataSourceViewController()
+        let nav = self.navigationController
+        nav?.pushViewController(vc, animated: true)
+    }
 }

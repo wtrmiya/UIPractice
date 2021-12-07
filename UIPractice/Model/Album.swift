@@ -7,12 +7,21 @@
 
 import Foundation
 
-struct Album: Decodable {
+struct Album: Decodable, Hashable {
     let title:String
     let artist:String
+    var identifier = UUID().uuidString
     
     enum CodingKeys: String, CodingKey {
         case title
         case artist
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(identifier)
+    }
+    
+    static func ==(lhs:Album, rhs:Album) -> Bool {
+        return lhs.identifier == rhs.identifier
     }
 }

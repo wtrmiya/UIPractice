@@ -20,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6u-80-faD">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="136.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-cO-qRt">
-                                                <rect key="frame" x="122.5" y="52.5" width="169" height="31"/>
+                                                <rect key="frame" x="122.5" y="43" width="169" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storybaord"/>
                                                 <connections>
@@ -38,10 +38,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpf-1c-OQP">
-                                        <rect key="frame" x="0.0" y="136.5" width="414" height="136"/>
+                                        <rect key="frame" x="0.0" y="117" width="414" height="116.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-2V-GLh">
-                                                <rect key="frame" x="104" y="52.5" width="206.5" height="31"/>
+                                                <rect key="frame" x="104" y="43" width="206.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storyboard + Xib"/>
                                                 <connections>
@@ -56,10 +56,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGV-tb-JgE">
-                                        <rect key="frame" x="0.0" y="272.5" width="414" height="136.5"/>
+                                        <rect key="frame" x="0.0" y="233.5" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oH7-MG-0Fg">
-                                                <rect key="frame" x="97.5" y="53" width="219.5" height="31"/>
+                                                <rect key="frame" x="97.5" y="43" width="219.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storyboard + Code"/>
                                                 <connections>
@@ -74,10 +74,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEi-os-7mi">
-                                        <rect key="frame" x="0.0" y="409" width="414" height="136.5"/>
+                                        <rect key="frame" x="0.0" y="350.5" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apT-eC-TNh">
-                                                <rect key="frame" x="141.5" y="52.5" width="131.5" height="31"/>
+                                                <rect key="frame" x="141.5" y="43" width="131.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Code"/>
                                                 <connections>
@@ -92,10 +92,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpC-1D-R2O">
-                                        <rect key="frame" x="0.0" y="545.5" width="414" height="136"/>
+                                        <rect key="frame" x="0.0" y="467.5" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jY-sp-TKh">
-                                                <rect key="frame" x="123" y="52.5" width="168.5" height="31"/>
+                                                <rect key="frame" x="123" y="43" width="168.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Code + Xib"/>
                                                 <connections>
@@ -110,10 +110,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcO-Uh-hjH">
-                                        <rect key="frame" x="0.0" y="681.5" width="414" height="136.5"/>
+                                        <rect key="frame" x="0.0" y="584.5" width="414" height="116.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3J-Oz-YaD">
-                                                <rect key="frame" x="126.5" y="53" width="161.5" height="31"/>
+                                                <rect key="frame" x="126.5" y="42.5" width="161.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="CollectionView: Code"/>
                                                 <connections>
@@ -125,6 +125,24 @@
                                         <constraints>
                                             <constraint firstItem="V3J-Oz-YaD" firstAttribute="centerY" secondItem="hcO-Uh-hjH" secondAttribute="centerY" id="7jg-jY-y6z"/>
                                             <constraint firstItem="V3J-Oz-YaD" firstAttribute="centerX" secondItem="hcO-Uh-hjH" secondAttribute="centerX" id="hzE-BG-vJ5"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rWg-4a-gbe">
+                                        <rect key="frame" x="0.0" y="701" width="414" height="117"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6s-ZB-nIg">
+                                                <rect key="frame" x="45" y="43" width="324.5" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="CollectionView: Code With DiffableDataSource"/>
+                                                <connections>
+                                                    <action selector="tapCollectionViewByCodeWithDiffableDataSourceButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="VBf-Sh-2Iy"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="x6s-ZB-nIg" firstAttribute="centerX" secondItem="rWg-4a-gbe" secondAttribute="centerX" id="65g-29-P56"/>
+                                            <constraint firstItem="x6s-ZB-nIg" firstAttribute="centerY" secondItem="rWg-4a-gbe" secondAttribute="centerY" id="L4w-NM-Pc8"/>
                                         </constraints>
                                     </view>
                                 </subviews>
