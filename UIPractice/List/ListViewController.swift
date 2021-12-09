@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 final class ListViewController:UIViewController {
     
@@ -33,6 +34,11 @@ final class ListViewController:UIViewController {
     }
     @IBAction func tapCollectionViewListButton(_ sender: Any) {
         let vc = CollectionViewListViewController()
+        let nav = self.navigationController
+        nav?.pushViewController(vc, animated: true)
+    }
+    @IBAction func tapSwiftUIButton(_ sender: Any) {
+        let vc = UIHostingController(rootView: SwiftUIListContentView())
         let nav = self.navigationController
         nav?.pushViewController(vc, animated: true)
     }

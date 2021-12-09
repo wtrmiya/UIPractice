@@ -19,11 +19,29 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zJx-GE-LPU">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lCz-M1-xH7">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="91"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9M4-Ot-wnX">
+                                                <rect key="frame" x="172" y="30" width="70.5" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="SwiftUI"/>
+                                                <connections>
+                                                    <action selector="tapSwiftUIButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="AER-7l-bdx"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="9M4-Ot-wnX" firstAttribute="centerY" secondItem="lCz-M1-xH7" secondAttribute="centerY" id="bvP-Uz-Xhv"/>
+                                            <constraint firstItem="9M4-Ot-wnX" firstAttribute="centerX" secondItem="lCz-M1-xH7" secondAttribute="centerX" id="nBj-Zg-yQ9"/>
+                                        </constraints>
+                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6u-80-faD">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="102.5"/>
+                                        <rect key="frame" x="0.0" y="91" width="414" height="91"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-cO-qRt">
-                                                <rect key="frame" x="122.5" y="35.5" width="169" height="31"/>
+                                                <rect key="frame" x="122.5" y="30" width="169" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storybaord"/>
                                                 <connections>
@@ -38,10 +56,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpf-1c-OQP">
-                                        <rect key="frame" x="0.0" y="102.5" width="414" height="102"/>
+                                        <rect key="frame" x="0.0" y="182" width="414" height="90.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-2V-GLh">
-                                                <rect key="frame" x="104" y="35.5" width="206.5" height="31"/>
+                                                <rect key="frame" x="104" y="29.5" width="206.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storyboard + Xib"/>
                                                 <connections>
@@ -56,10 +74,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGV-tb-JgE">
-                                        <rect key="frame" x="0.0" y="204.5" width="414" height="102.5"/>
+                                        <rect key="frame" x="0.0" y="272.5" width="414" height="91"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oH7-MG-0Fg">
-                                                <rect key="frame" x="97.5" y="35.5" width="219.5" height="31"/>
+                                                <rect key="frame" x="97.5" y="30" width="219.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Storyboard + Code"/>
                                                 <connections>
@@ -74,10 +92,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEi-os-7mi">
-                                        <rect key="frame" x="0.0" y="307" width="414" height="102"/>
+                                        <rect key="frame" x="0.0" y="363.5" width="414" height="91"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apT-eC-TNh">
-                                                <rect key="frame" x="141.5" y="35.5" width="131.5" height="31"/>
+                                                <rect key="frame" x="141.5" y="30" width="131.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Code"/>
                                                 <connections>
@@ -92,10 +110,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpC-1D-R2O">
-                                        <rect key="frame" x="0.0" y="409" width="414" height="102.5"/>
+                                        <rect key="frame" x="0.0" y="454.5" width="414" height="91"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jY-sp-TKh">
-                                                <rect key="frame" x="123" y="35.5" width="168.5" height="31"/>
+                                                <rect key="frame" x="123" y="30" width="168.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="TableView: Code + Xib"/>
                                                 <connections>
@@ -110,10 +128,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcO-Uh-hjH">
-                                        <rect key="frame" x="0.0" y="511.5" width="414" height="102"/>
+                                        <rect key="frame" x="0.0" y="545.5" width="414" height="90.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3J-Oz-YaD">
-                                                <rect key="frame" x="126.5" y="35.5" width="161.5" height="31"/>
+                                                <rect key="frame" x="126.5" y="30" width="161.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="CollectionView: Code"/>
                                                 <connections>
@@ -128,10 +146,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rWg-4a-gbe">
-                                        <rect key="frame" x="0.0" y="613.5" width="414" height="102.5"/>
+                                        <rect key="frame" x="0.0" y="636" width="414" height="91"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6s-ZB-nIg">
-                                                <rect key="frame" x="45" y="35.5" width="324.5" height="31"/>
+                                                <rect key="frame" x="45" y="30" width="324.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="CollectionView: Code With DiffableDataSource"/>
                                                 <connections>
@@ -146,10 +164,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W7w-R2-4mC">
-                                        <rect key="frame" x="0.0" y="716" width="414" height="102"/>
+                                        <rect key="frame" x="0.0" y="727" width="414" height="91"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbQ-MJ-lcI">
-                                                <rect key="frame" x="132" y="35.5" width="150.5" height="31"/>
+                                                <rect key="frame" x="132" y="30" width="150.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="CollectionView: List"/>
                                                 <connections>
@@ -165,7 +183,6 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="u6u-80-faD" firstAttribute="top" secondItem="zJx-GE-LPU" secondAttribute="top" id="U0g-3y-FCp"/>
                                     <constraint firstAttribute="trailing" secondItem="u6u-80-faD" secondAttribute="trailing" id="kXy-qS-88D"/>
                                     <constraint firstItem="u6u-80-faD" firstAttribute="leading" secondItem="zJx-GE-LPU" secondAttribute="leading" id="xaS-lt-qmK"/>
                                 </constraints>
