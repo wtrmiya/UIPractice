@@ -20,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18i-Cc-Ess">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="367"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M62-Uz-L16">
-                                                <rect key="frame" x="164" y="351.66666666666669" width="47.333333333333343" height="31"/>
+                                                <rect key="frame" x="164" y="168" width="47.333333333333343" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="List"/>
                                                 <connections>
@@ -37,11 +37,27 @@
                                             <constraint firstItem="M62-Uz-L16" firstAttribute="centerY" secondItem="18i-Cc-Ess" secondAttribute="centerY" id="h78-do-zTf"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Brq-Qy-8QN">
+                                        <rect key="frame" x="0.0" y="367" width="375" height="367"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9T-kY-tyh">
+                                                <rect key="frame" x="160" y="168" width="55.333333333333343" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Alert"/>
+                                                <connections>
+                                                    <segue destination="6RG-ud-bkK" kind="show" id="frY-ur-hxE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="V9T-kY-tyh" firstAttribute="centerX" secondItem="Brq-Qy-8QN" secondAttribute="centerX" id="0Kj-oL-gjo"/>
+                                            <constraint firstItem="V9T-kY-tyh" firstAttribute="centerY" secondItem="Brq-Qy-8QN" secondAttribute="centerY" id="NB6-bG-lgy"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="18i-Cc-Ess" firstAttribute="leading" secondItem="BML-cM-cOM" secondAttribute="leading" id="0XQ-wC-ewS"/>
-                                    <constraint firstItem="18i-Cc-Ess" firstAttribute="top" secondItem="BML-cM-cOM" secondAttribute="top" id="7Kq-0K-Q8F"/>
-                                    <constraint firstAttribute="bottom" secondItem="18i-Cc-Ess" secondAttribute="bottom" id="Gbs-mD-v2c"/>
                                     <constraint firstAttribute="trailing" secondItem="18i-Cc-Ess" secondAttribute="trailing" id="q5a-Tp-lih"/>
                                 </constraints>
                             </stackView>
@@ -69,6 +85,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Kc-xB-RDu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="622" y="71"/>
+        </scene>
+        <!--Alert-->
+        <scene sceneID="iop-eg-4KH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Alert" id="6RG-ud-bkK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="n2h-hF-3KI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vsh-6v-kpQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="631" y="268"/>
         </scene>
     </scenes>
     <resources>
