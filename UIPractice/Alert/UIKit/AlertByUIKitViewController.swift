@@ -19,4 +19,16 @@ final class AlertByUIKitViewController: UIViewController {
         
         self.present(alert, animated: true)
     }
+    @IBAction func onShowActionSheetTapped(_ sender: Any) {
+        let alert = UIAlertController(title: "警告", message: "アクションシートを表示してみました", preferredStyle: .actionSheet)
+        
+        let okAction = UIAlertAction(title: "OK", style: .default)
+        let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel)
+        
+        alert.addAction(okAction)
+        alert.addAction(cancelAction)
+        
+        self.present(alert, animated: true)
+        
+    }
 }

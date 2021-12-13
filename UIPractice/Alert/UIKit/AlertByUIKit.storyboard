@@ -44,6 +44,9 @@
                                                 <rect key="frame" x="134" y="189" width="146" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Show Action Sheet"/>
+                                                <connections>
+                                                    <action selector="onShowActionSheetTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9wn-Mr-HMt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
