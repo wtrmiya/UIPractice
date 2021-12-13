@@ -39,6 +39,8 @@
 		86A09FA62767F2DE007AA3F9 /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A09FA52767F2DE007AA3F9 /* Alert.storyboard */; };
 		86A09FA82767F423007AA3F9 /* AlertByUIKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A09FA72767F423007AA3F9 /* AlertByUIKit.storyboard */; };
 		86A09FAA2767F4E4007AA3F9 /* AlertByUIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A09FA92767F4E4007AA3F9 /* AlertByUIKitViewController.swift */; };
+		86A09FAD276803B7007AA3F9 /* AlertBySwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A09FAC276803B7007AA3F9 /* AlertBySwiftUI.swift */; };
+		86A09FAF276805FE007AA3F9 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A09FAE276805FE007AA3F9 /* AlertViewController.swift */; };
 		86F4B8A127542F6800FC378D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A027542F6800FC378D /* AppDelegate.swift */; };
 		86F4B8A327542F6800FC378D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A227542F6800FC378D /* SceneDelegate.swift */; };
 		86F4B8A527542F6800FC378D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8A427542F6800FC378D /* ViewController.swift */; };
@@ -82,6 +84,8 @@
 		86A09FA52767F2DE007AA3F9 /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
 		86A09FA72767F423007AA3F9 /* AlertByUIKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertByUIKit.storyboard; sourceTree = "<group>"; };
 		86A09FA92767F4E4007AA3F9 /* AlertByUIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertByUIKitViewController.swift; sourceTree = "<group>"; };
+		86A09FAC276803B7007AA3F9 /* AlertBySwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBySwiftUI.swift; sourceTree = "<group>"; };
+		86A09FAE276805FE007AA3F9 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		86F4B89D27542F6800FC378D /* UIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4B8A027542F6800FC378D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F4B8A227542F6800FC378D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -310,8 +314,10 @@
 		86A09FA22767F1F8007AA3F9 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				86A09FAB2768038D007AA3F9 /* SwiftUI */,
 				86A09FA42767F29B007AA3F9 /* UIKit */,
 				86A09FA52767F2DE007AA3F9 /* Alert.storyboard */,
+				86A09FAE276805FE007AA3F9 /* AlertViewController.swift */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -323,6 +329,14 @@
 				86A09FA92767F4E4007AA3F9 /* AlertByUIKitViewController.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		86A09FAB2768038D007AA3F9 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				86A09FAC276803B7007AA3F9 /* AlertBySwiftUI.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		86F4B89427542F6800FC378D = {
@@ -463,6 +477,7 @@
 			files = (
 				8667212B275FF55F000207F1 /* CollectionViewListCell.swift in Sources */,
 				86F4B8A527542F6800FC378D /* ViewController.swift in Sources */,
+				86A09FAD276803B7007AA3F9 /* AlertBySwiftUI.swift in Sources */,
 				8668530F275AA60C00D7D6C6 /* TableViewByStoryboardAndCodeViewController.swift in Sources */,
 				86685323275AFD0E00D7D6C6 /* TableViewByCodeAndXibViewController.swift in Sources */,
 				86685313275AB5B900D7D6C6 /* RootViewController.swift in Sources */,
@@ -475,6 +490,7 @@
 				86685311275AA6DF00D7D6C6 /* TableViewByStoryboardAndCodeCell.swift in Sources */,
 				8606D95327582D1700958EB4 /* TableViewByStoryboardViewController.swift in Sources */,
 				8668531B275AE0BD00D7D6C6 /* ListViewController.swift in Sources */,
+				86A09FAF276805FE007AA3F9 /* AlertViewController.swift in Sources */,
 				86685320275AFBEF00D7D6C6 /* TableViewByCodeAndXibCell.swift in Sources */,
 				86F4B8A327542F6800FC378D /* SceneDelegate.swift in Sources */,
 				866721302760026E000207F1 /* SwiftUIListContentView.swift in Sources */,
